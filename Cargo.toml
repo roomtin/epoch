@@ -1,5 +1,5 @@
 [package]
-name = "epoch"
+name = "epoch-calc"
 version = "0.1.0"
 edition = "2021"
 authors = ["roomtin"]
@@ -11,3 +11,9 @@ license-file = "LICENSE"
 
 [dependencies]
 chrono = "0.4.27"
+
+# This sets the binary name to "epoch"
+[[bin]]
+name = "epoch"
+path = "main.rs"
+
